@@ -40,7 +40,7 @@ class SignUp extends Component {
       <div>
         <form onSubmit={this.displayLogin}>
           <h2>Register</h2>
-          <div>
+          <div class="ui focus input">
             <input
               type="text"
               placeholder="Full Name"
@@ -49,7 +49,7 @@ class SignUp extends Component {
               name="fullname"
             />
           </div>
-          <div>
+          <div class="ui focus input">
             <input
               type="text"
               placeholder="Enter your email"
@@ -58,7 +58,7 @@ class SignUp extends Component {
               name="email"
             />
           </div>
-          <div>
+          <div class="ui focus input">
             <input
               type="password"
               placeholder="Password"
@@ -67,7 +67,7 @@ class SignUp extends Component {
               name="password"
             />
           </div>
-          <div>
+          <div class="ui focus input">
             <input
               type="password"
               placeholder="Confirm password"
