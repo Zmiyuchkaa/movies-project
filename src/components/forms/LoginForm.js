@@ -67,7 +67,7 @@ class Login extends Component {
                   </div>
                 </div>
                 
-                  <button class="ui primary button"  style={{width: "100px"}} type="submit" value="Login">Login</button>
+                  <button class="ui teal button"  style={{width: "100px"}} type="submit" value="Login">Login</button>
                   <button class="ui grey button" style={{marginTop: "10px", width: "100px"}} >Cancel</button>
                   
                 
